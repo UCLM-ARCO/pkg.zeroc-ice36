@@ -2,8 +2,6 @@ To install, run:
 
 
 ```
-#!sh
-
 $ sudo su
 # apt-get install software-properties-common
 # wget -O- https://zeroc.com/download/GPG-KEY-zeroc-release | apt-key add -
