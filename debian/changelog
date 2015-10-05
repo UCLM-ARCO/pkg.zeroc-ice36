@@ -1,3 +1,9 @@
+zeroc-ice36 (3.6-3) unstable; urgency=medium
+
+  * control: +depends: slice2js
+
+ -- David Villa Alises <David.Villa@gmail.com>  Fri, 02 Oct 2015 13:34:15 +0200
+
 zeroc-ice36 (3.6-2) unstable; urgency=medium
 
   * links and dirs
