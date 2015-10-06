@@ -19,7 +19,8 @@ Depends: ${misc:Depends},
 	 zeroc-ice-utils,
 	 zeroc-icebox,
 	 zeroc-icegrid,
- 	 zeroc-icepatch2
+ 	 zeroc-icepatch2,
+	 python-zeroc-ice36
 Description: Virtual package to install ZeroC Ice 3.6
  virtual package that install Debian packages provided by ZeroC.
  PHP bindings are skipped.
