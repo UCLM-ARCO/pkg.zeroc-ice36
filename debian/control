@@ -7,11 +7,19 @@ Standards-Version: 3.9.6
 
 Package: zeroc-ice36
 Architecture: all
-Depends: ${misc:Depends}, libzeroc-freeze3.6, libzeroc-ice-dev,
-	 libzeroc-ice-java, libzeroc-ice3.6, libzeroc-icestorm3.6,
-	 zeroc-glacier2, zeroc-ice-slice, zeroc-ice-utils-java,
-	 zeroc-ice-utils, zeroc-icebox, zeroc-icegrid,
-	  zeroc-icepatch2, slice2js, python-zeroc-ice36
+Depends: ${misc:Depends},
+	 libzeroc-freeze3.6,
+	 libzeroc-ice-dev,
+	 libzeroc-ice-java,
+	 libzeroc-ice3.6,
+	 libzeroc-icestorm3.6,
+	 zeroc-glacier2,
+	 zeroc-ice-slice,
+ 	 zeroc-ice-utils-java,
+	 zeroc-ice-utils,
+	 zeroc-icebox,
+	 zeroc-icegrid,
+ 	 zeroc-icepatch2
 Description: Virtual package to install ZeroC Ice 3.6
  virtual package that install Debian packages provided by ZeroC.
  PHP bindings are skipped.
