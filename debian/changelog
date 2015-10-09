@@ -1,3 +1,15 @@
+zeroc-ice36 (3.6-9) unstable; urgency=low
+
+  * Ensure update
+
+ -- David Villa Alises <David.Villa@gmail.com>  Fri, 09 Oct 2015 13:41:43 +0200
+
+zeroc-ice36 (3.6-2) unstable; urgency=low
+
+  * New release
+
+ -- David Villa Alises <David.Villa@gmail.com>  Fri, 09 Oct 2015 11:06:49 +0200
+
 zeroc-ice36 (3.6-1) unstable; urgency=low
 
   * Initial release
