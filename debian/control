@@ -3,24 +3,41 @@ Section: utils
 Priority: extra
 Maintainer: David Villa Alises <David.Villa@gmail.com>
 Build-Depends: debhelper (>= 7.0.50~), quilt
-Standards-Version: 3.9.6
+Standards-Version: 3.9.8
 
 Package: zeroc-ice36
 Architecture: all
 Depends: ${misc:Depends},
+	 zeroc-ice36-essential,
+	 zeroc-ice36-services,
 	 libzeroc-freeze3.6,
-	 libzeroc-ice-dev,
 	 libzeroc-ice-java,
+ 	 zeroc-ice-utils-java,
+Description: Virtual package to install ZeroC Ice 3.6.2
+ virtual package that install Debian packages provided by ZeroC.
+ PHP bindings are skipped.
+
+Package: zeroc-ice36-essential
+Architecture: all
+Depends: ${misc:Depends},
 	 libzeroc-ice3.6,
+	 libzeroc-ice-dev,
+	 zeroc-ice-slice,
+	 zeroc-ice-utils,
+	 python-zeroc-ice36
+Description: Virtual package to install ZeroC Ice 3.6.2
+ virtual package that install Debian packages provided by ZeroC.
+ Core libraries + Python bindings.
+
+Package: zeroc-ice36-services
+Architecture: all
+Depends: ${misc:Depends},
+	 zeroc-ice36-essential,
 	 libzeroc-icestorm3.6,
 	 zeroc-glacier2,
-	 zeroc-ice-slice,
- 	 zeroc-ice-utils-java,
-	 zeroc-ice-utils,
 	 zeroc-icebox,
 	 zeroc-icegrid,
  	 zeroc-icepatch2,
-	 python-zeroc-ice36
-Description: Virtual package to install ZeroC Ice 3.6
+Description: Virtual package to install ZeroC Ice 3.6.2
  virtual package that install Debian packages provided by ZeroC.
- PHP bindings are skipped.
+ Ice core services.
