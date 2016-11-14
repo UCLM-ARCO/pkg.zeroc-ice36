@@ -1,3 +1,9 @@
+zeroc-ice36 (3.6.3-4) unstable; urgency=low
+
+  * remove links
+
+ -- David Villa Alises <David.Villa@gmail.com>  Wed, 02 Nov 2016 12:04:50 +0000
+
 zeroc-ice36 (3.6.3-3) unstable; urgency=low
 
   * icegridgui java depends added

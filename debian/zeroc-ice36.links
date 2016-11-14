@@ -1,4 +1,4 @@
-/usr/share/slice /usr/share/Ice/slice
-/usr/share/java/ice.jar /usr/share/java/Ice.jar
-/usr/share/java/icestorm.jar /usr/share/java/IceStorm.jar
-/usr/share/java/freeze.jar /usr/share/java/Freeze.jar
+# /usr/share/slice /usr/share/Ice/slice
+# /usr/share/java/ice.jar /usr/share/java/Ice.jar
+# /usr/share/java/icestorm.jar /usr/share/java/IceStorm.jar
+# /usr/share/java/freeze.jar /usr/share/java/Freeze.jar
