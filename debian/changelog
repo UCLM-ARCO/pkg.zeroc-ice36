@@ -1,8 +1,26 @@
-zeroc-ice36 (3.6.3-1) unstable; urgency=low
+zeroc-ice36 (3.6.3-5) unstable; urgency=low
 
   * New release
 
- -- David Villa Alises <David.Villa@gmail.com>  Tue, 23 May 2017 17:33:51 +0200
+ -- David Villa Alises <David.Villa@gmail.com>  Tue, 23 May 2017 17:39:23 +0200
+
+zeroc-ice36 (3.6.3-4) unstable; urgency=low
+
+  * remove links
+
+ -- David Villa Alises <David.Villa@gmail.com>  Wed, 02 Nov 2016 12:04:50 +0000
+
+zeroc-ice36 (3.6.3-3) unstable; urgency=low
+
+  * icegridgui java depends added
+
+ -- David Villa Alises <David.Villa@gmail.com>  Mon, 17 Oct 2016 21:35:48 +0100
+
+zeroc-ice36 (3.6.3-2) unstable; urgency=low
+
+  * New release 3.6.3
+
+ -- David Villa Alises <David.Villa@gmail.com>  Mon, 17 Oct 2016 21:14:30 +0100
 
 zeroc-ice36 (3.6.2-2) unstable; urgency=low
 
