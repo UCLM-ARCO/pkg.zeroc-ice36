@@ -12,7 +12,7 @@ Depends: ${misc:Depends},
 	 zeroc-ice36-services,
 	 libzeroc-freeze3.6,
 	 libzeroc-ice3.6-java
-Description: Virtual package to install ZeroC Ice 3.6.2
+Description: Virtual package to install ZeroC Ice 3.6.3
  virtual package that install Debian packages provided by ZeroC.
  PHP bindings are dropped.
 
@@ -25,7 +25,7 @@ Depends: ${misc:Depends},
 	 python3-zeroc-ice,
 	 libzeroc-ice-dev,
 	 zeroc-ice-compilers
-Description: Virtual package to install ZeroC Ice 3.6.2
+Description: Virtual package to install ZeroC Ice 3.6.3
  virtual package that install Debian packages provided by ZeroC.
  Core libraries + Python bindings.
 
