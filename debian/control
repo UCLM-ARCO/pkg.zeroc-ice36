@@ -19,6 +19,7 @@ Description: Virtual package to install ZeroC Ice 3.6.3
 Package: zeroc-ice36-essential
 Architecture: all
 Depends: ${misc:Depends},
+	 dpkg-dev,
 	 libzeroc-ice3.6,
 	 zeroc-ice-slice,
 	 zeroc-ice-utils,
